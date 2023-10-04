@@ -1,0 +1,128 @@
+#root {
+  width: 97%;
+  height: 100%;
+  background-color: #cbd5df;
+}
+
+body {
+  background-color: #cbd5df;
+  display: flex;
+}
+
+header {
+  width: 97%;
+  padding: 20px;
+  background-color: #dae0e6;
+  border-radius: 25px;
+  margin-left: 20px;
+}
+
+input {
+  background-color: white;
+  color: rgb(88, 82, 82);
+  border-radius: 12px;
+  width: 300px;
+  height: 30px;
+  border: none;
+  margin-left: 40px;
+}
+
+.card {
+  margin-left: 15px;
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1rem;
+}
+
+.car-card {
+  border: 1px solid white;
+  border-radius: 25px;
+  padding: 20px;
+  height: 500px;
+  color: black;
+  background-color: #e0e1e9;
+}
+
+img {
+  border-radius: 25px;
+  display: flex;
+  width: 100%;
+  height: 260px;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+.carname {
+  margin-left: -40px;
+  margin-right: 190px;
+  font-size: 20px;
+}
+
+.year {
+  font-size: 17px;
+  border: 1px dotted blue;
+  border-radius: 15px;
+  padding: 5px;
+}
+
+.b {
+  color: #474743;
+  margin-top: -25px;
+  justify-content: space-evenly;
+}
+
+.size {
+  margin-left: -60px;
+  margin-right: 110px;
+}
+
+.type {
+  margin-left: 50px;
+}
+
+.average {
+  margin-left: -50px;
+  margin-right: 50px;
+}
+
+.control {
+  margin-left: 50px;
+}
+
+.c {
+  display: flex;
+}
+
+.rent {
+  margin-top: 9px;
+  font-size: 23px;
+}
+
+.c button {
+  background-color: #357ae1;
+  font-size: 15px;
+  width: 100px;
+  height: 40px;
+  border-radius: 13px;
+  padding: 0;
+  margin-left: 150px;
+  margin-top: 9.5px;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 15px;
+}
+
+.pagination button {
+  background-color: white;
+  color: #474743;
+  border: 1px solid #357ae1;
+}
